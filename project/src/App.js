@@ -1,11 +1,14 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
+import NavBar from "./Components/navbar/NavBar";
 
 function App() {
-    return (
-        <div>
-            <h1 class="text-3xl font-bold underline">Hello world!</h1>
-        </div>
-    );
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
